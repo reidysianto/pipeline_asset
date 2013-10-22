@@ -7,6 +7,11 @@ gem 'rails', '3.2.14'
 
 group :development, :test do
   gem 'mysql2'
+  gem 'faker'
+end
+group :development do
+  gem 'better_errors'
+  gem "binding_of_caller"
 end
 
 
@@ -47,4 +52,4 @@ gem 'refinerycms-acts-as-indexed', '~> 1.0.0'
 #  gem 'refinerycms-blog', '~> 2.1.0'
 #  gem 'refinerycms-inquiries', '~> 2.1.0'
 #  gem 'refinerycms-search', '~> 2.1.0'
-#  gem 'refinerycms-page-images', '~> 2.1.0'
+gem 'refinerycms-page-images', '~> 2.1.0'

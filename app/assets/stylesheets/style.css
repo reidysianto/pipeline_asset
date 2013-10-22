@@ -105,7 +105,7 @@
 	ul.style1 li
 	{
 		padding: 0.75em 0 0.75em 0em;
-		background: url(images/bullet-icon.png) no-repeat left 50%;
+		background: url(bullet-icon.png) no-repeat left 50%;
 	}
 	
 	ul.style1 a
@@ -240,7 +240,7 @@
 	
 	ul.style4 a {
 		padding-left: 1em;
-		background: url(images/list-bullet.png) no-repeat left 50%;
+		background: url(list-bullet.png) no-repeat left 50%;
 		text-decoration: none;
 		color: #909090;
 	}
@@ -279,10 +279,10 @@
 
 /* Header */
 
-	#header-wrapper
+	.header-wrapper
 	{
 		overflow: hidden;
-		background: #FFFFFF url(images/header-bg.png) repeat;
+		background: #FFFFFF url(header-bg.png) repeat;
 	}
 
 /* Banner */
@@ -291,7 +291,7 @@
 	{
 		overflow: hidden;
 		height: 41em;
-		background: url(../images/pic01.png) no-repeat right top;
+		background: url(pic01.png) no-repeat right top;
 	}
 
 	#banner h2
@@ -367,7 +367,7 @@
 	{
 		overflow: hidden;
 		padding: 4em 0em;
-		background: url(images/featured-bg.png) repeat;
+		background: url(featured-bg.png) repeat;
 	}
 	
 	#featured-content
