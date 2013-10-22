@@ -1,0 +1,17 @@
+<!-- Header -->
+    <div class="header-wrapper">
+    
+      <header id="header">
+        <div class="5grid-layout">
+          <div class="row">
+            <div class="4u" id="logo">
+              <h1><%= link_to Refinery::Core.site_name, refinery.root_path, class: "mobileUI-site-name" %></h1>
+            </div>
+            <div class="8u" id="menu">
+              <%= Refinery::Pages::MenuPresenter.new(refinery_menu_pages, self).to_html %>
+            </div>
+          </div>
+        </div>
+      </header>      
+
+    </div>

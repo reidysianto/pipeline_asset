@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<%= render "/refinery/html_tag" %>
+  <% site_bar = render('/refinery/site_bar', :head => true) -%>
+  <head>
+    <%= render "/refinery/head" %>
+    <link rel="stylesheet" href="css/5grid/core.css" />
+    <link rel="stylesheet" href="css/5grid/core-desktop.css" />
+    <link rel="stylesheet" href="css/5grid/core-1200px.css" />
+    <link rel="stylesheet" href="css/5grid/core-noscript.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-desktop.css" />
+  </head>
+  <body id="<%= canonical_id @page %>">
+    <%= site_bar -%>
+    <div id="page_container">
+        <%= render "/refinery/header" -%>
+        <%= yield %>
+        <%= render "/refinery/footer" -%>
+    </div>
+    <%= render "/refinery/javascripts" %>
+  </body>
+</html>
