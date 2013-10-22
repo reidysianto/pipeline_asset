@@ -1,0 +1,7 @@
+<li class=<%= 'first' if i == 9%>>
+  <p><%= link_to '#' do%>
+    <%= image_tag @page.images.find(i).url%>
+    <%= Faker::Lorem.paragraph(3) %>
+    <%end%>
+  </p>
+</li>
