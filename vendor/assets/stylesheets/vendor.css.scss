@@ -8,9 +8,11 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require vendor
- *= require custom
- *= require refinery/formatting
- *= require refinery/theme
- *= require_self
+ *= require core-desktop
+ *= require core-1200px
+ *= require core-noscript
+ *= require core
+ *= require style-desktop
+ *= require style
  */
+

@@ -15,6 +15,6 @@ test: &test
 production: &production
   adapter: mysql2
   host: localhost
-  database: your_production_database
-  username: your_production_database_login
-  password: your_production_database_password
+  database: megacorp_production
+  username: ukirama
+  password: "123"
